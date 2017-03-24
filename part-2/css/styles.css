@@ -20,10 +20,31 @@ img {
 }
 
 figure {
-  margin: 0;
+  position: relative;
+  float: left;
+  margin: 10px;
+  width: 30%;
 }
 
 .film {
+  position: relative;
+  display: inline-block;
   width: 50%;
   margin: 40px auto;
+  border: 1px solid #EEEEEE;
+  padding: 10px;
+}
+
+.action-watch-later {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: red;
+}
+
+.action-like {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  color: red;
 }
